@@ -36,8 +36,51 @@ function printName(name) {
 function addNumbers(num1, num2) {
   return num1 + num2
 }
- var num1 = 10;
- var num2 = 85;
- result = num1 + num2;
+ var totalNum= addNumbers(10, 85);
+console.log(totalNum);
 
-addNumbers(num1, num2);
+var totalNum= addNumbers(22, 1456);
+console.log(totalNum);
+
+var totalNum= addNumbers(2, 5);
+console.log(totalNum);
+
+/* Exercise 3  part -1 */
+var multiplyNumbers = function(num1, num2) {
+return num1 * num2
+}
+var total = multiplyNumbers(5, 25);
+var total = multiplyNumbers(22, 1456);
+var total = multiplyNumbers(2, 5);
+
+/* part - 2 */
+var subtractNumbers = (num1, num2) => {    //=> Arrow function
+  return num1 - num2
+}
+var total = subtractNumbers(10,5);
+console.log(total);
+var total = subtractNumbers(1325,323);
+console.log(total);
+var total = subtractNumbers(222,49);
+console.log(total);
+
+/* part -3 */
+var changedNum = (num) => {
+  return num * 5
+}
+let newNum = changedNum(10)
+console.log(newNum)
+
+var changedNum2 = num => num * 5;
+let newNum2 = changedNum2(8);
+console.log(newNum2)
+
+//run changedNum2 with 15
+//run changedNum2 with 22
+var changedNum2 = num => num * 5;
+let newNum2 = changedNum2(15);
+console.log(newNum2)
+//run changedNum2 with 50
+var changedNum2 = num => num * 5;
+let newNum2 = changedNum2(22);
+console.log(newNum2)
