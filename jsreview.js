@@ -53,7 +53,8 @@ var total = multiplyNumbers(5, 25);
 var total = multiplyNumbers(22, 1456);
 var total = multiplyNumbers(2, 5);
 
-/* part - 2 */
+
+/* Exercise 3 part - 2 */
 var subtractNumbers = (num1, num2) => {    //=> Arrow function
   return num1 - num2
 }
@@ -64,7 +65,9 @@ console.log(total);
 var total = subtractNumbers(222,49);
 console.log(total);
 
-/* part -3 */
+
+
+/* Exercise 3 part -3 */
 var changedNum = (num) => {
   return num * 5
 }
@@ -76,11 +79,11 @@ let newNum2 = changedNum2(8);
 console.log(newNum2)
 
 //run changedNum2 with 15
-//run changedNum2 with 22
 var changedNum2 = num => num * 5;
 let newNum2 = changedNum2(15);
 console.log(newNum2)
-//run changedNum2 with 50
+
+//run changedNum2 with 22
 var changedNum2 = num => num * 5;
 let newNum2 = changedNum2(22);
 console.log(newNum2)
